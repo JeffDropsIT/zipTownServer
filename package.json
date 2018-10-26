@@ -1,0 +1,34 @@
+{
+  "name": "ziptownserver",
+  "version": "1.0.0",
+  "description": "The sever side code for zipTown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffDropsIT/zipTownServer.git"
+  },
+  "keywords": [
+    "server",
+    "koa",
+    "zipTown"
+  ],
+  "author": "JeffDropsIT",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffDropsIT/zipTownServer/issues"
+  },
+  "homepage": "https://github.com/JeffDropsIT/zipTownServer#readme",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "is-empty": "^1.2.0",
+    "koa": "^2.6.1",
+    "koa-body": "^4.0.4",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.1.8"
+  }
+}
