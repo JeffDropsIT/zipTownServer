@@ -1,0 +1,48 @@
+const validateUserData = data => {
+    try {
+        let fullName = data.fullName.toLowerCase(),
+            city = data.city.toLowerCase(),
+            contact = data.contact.toLowerCase(),
+            userType = data.userType.toLowerCase();
+            password = data.password.toLowerCase();
+        
+        return {response: 200, message: "success"};
+    } catch (error) {
+        return {response: 422, error: "missing parameter (Unprocessable Entity)"};
+    }
+}
+
+const validateId = async(ctx) =>{
+    const id = ctx.params.id;
+
+    if(id){
+        return  {response: 200, message:"success"};
+    }else{
+        return {response: 422, error: "missing parameter (Unprocessable Entity)"};
+    }
+
+}
+const validatePostData = data => {
+    try {
+        let publisherId =  data.publisherId.toLowerCase(),
+            depatureTime = data.depatureTime.toLowerCase(),
+            returnTime = data.returnTime.toLowerCase(),
+            days = data.days.toLowerCase(),
+            origin = data.origin.toLowerCase(),
+            destination = data.destination.toLowerCase(),
+            city = data.city.toLowerCase(),
+            publisher = data.publisher.toLowerCase(),
+            contact = data.contact.toLowerCase(),
+            postType = data.postType.toLowerCase();
+        
+        return {response: 200, message: "success"};
+    } catch (error) {
+        return {response: 422, error: "missing parameter (Unprocessable Entity)"};
+    }
+}
+
+module.exports = {
+    validateUserData,
+    validatePostData,
+    validateId
+}

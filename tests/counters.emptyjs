@@ -1,0 +1,20 @@
+const counters = require("../controllers/db/counters/counters");
+
+const onAdd = counters.getNextSequenceValue;
+const onDelete = counters.getNextSequenceValueDelete;
+
+
+
+it('1 add one users should be one user more then previous', async () => {
+    const numberOfUsers = await onAdd("userId", "usersIndex");
+    const numberOfUsersNew = await onDelete("userId", "usersIndex");
+    const expectedResults = numberOfUsersNew + 1;
+    expect(numberOfUsers).toEqual(expectedResults);
+});
+
+it('1 removes one users should be one user less then previous', async () => {
+    const numberOfUsers = await onDelete("userId", "usersIndex");
+    const numberOfUsersNew = await onAdd("userId", "usersIndex");
+    const expectedResults = numberOfUsersNew - 1;
+    expect(numberOfUsers).toEqual(expectedResults);
+});
