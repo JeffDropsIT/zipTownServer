@@ -48,7 +48,7 @@ const validateLogin = async(ctx) =>{
 
 const validatePostData = data => {
     try {
-        let publisherId =  data.publisherId.toLowerCase(),
+        let publisherId =  String(data.publisherId).toLowerCase(),
             depatureTime = data.depatureTime.toLowerCase(),
             returnTime = data.returnTime.toLowerCase(),
             days = data.days.toLowerCase(),

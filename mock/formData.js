@@ -56,8 +56,38 @@ const sampleQueryStringMissingParam = {
     request: {body:sampleUserMissingParam}
 }
 
+const sampleOffer = {
+    publisherId: 13,
+    depatureTime: "8 AM",
+    returnTime: "16 PM",
+    days: "Mon, Wed, Tue, Thur, Fri",
+    origin: "Pretoria",
+    destination: "Randburg",
+    city: "Durbane",
+    publisher: "jane",
+    contact: "+2710248161134",
+    postType: "request"
+        
+}
 
+const sampleOfferPosted = {
+    request: {body:sampleOffer}
+}
 const samplePostRequest = {
+    publisherId: 13,
+    depatureTime: "8 AM",
+    returnTime: "16 PM",
+    days: "Mon, Wed, Tue, Thur, Fri",
+    origin: "Pretoria",
+    destination: "Randburg",
+    city: "Pretoria",
+    publisher: "Phindile Sthah Ngobese",
+    contact: generateContact(),
+    postType: "request"
+        
+}
+
+const samplePostOffer = {
     publisherId: "publisherId",
     depatureTime: "depatureTime",
     returnTime: "returnTime",
@@ -67,7 +97,7 @@ const samplePostRequest = {
     city: "city",
     publisher: "publisher",
     contact: "contact",
-    postType: "request"
+    postType: "offer"
         
 }
 const samplePostOffer = {
@@ -136,5 +166,6 @@ module.exports = {
     sampleQueryString, 
     sampleQueryStringMissingParam,
     sampleUserRequestLogin,
-    sampleReqUpdateUser
+    sampleReqUpdateUser,
+    sampleOfferPosted
 }
