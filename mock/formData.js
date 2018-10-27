@@ -7,7 +7,7 @@ const generateContact = () =>{
     return contact;
 }
 const getRandomNumber = () => {
-    return Math.floor((Math.random() * 10) + 1);
+    return Math.floor((Math.random() * 9));
 }
 
 const sampleUser = {
@@ -87,19 +87,7 @@ const samplePostRequest = {
         
 }
 
-const samplePostOffer = {
-    publisherId: "publisherId",
-    depatureTime: "depatureTime",
-    returnTime: "returnTime",
-    days: "days",
-    origin: "origin",
-    destination: "destination",
-    city: "city",
-    publisher: "publisher",
-    contact: "contact",
-    postType: "offer"
-        
-}
+
 const samplePostOffer = {
     publisherId: "publisherId",
     depatureTime: "depatureTime",
@@ -167,5 +155,6 @@ module.exports = {
     sampleQueryStringMissingParam,
     sampleUserRequestLogin,
     sampleReqUpdateUser,
-    sampleOfferPosted
+    sampleOfferPosted,
+    getRandomNumber
 }
