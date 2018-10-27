@@ -24,7 +24,16 @@ const createRequest = async (ctx) => {
     }
     
 }
-const getRequest = async (ctx) => {
+const getRequests = async (ctx) => {
+  
+    const db = await generic.getDatabaseByName();
+    const result = await db.db.collection("requests").find({});
+    const arrResults = await result.toArray();
+    db.connection.close();
+    return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
+
+}
+const getUsersRequests = async (ctx) => {
     const response = await validator.validateId(ctx)
     if(response.response === 422){
         return response;
@@ -34,7 +43,7 @@ const getRequest = async (ctx) => {
     const result = await db.db.collection("requests").aggregate(
         [
             {
-                $match: {$or:[{id:id}]}
+                $match: {$or:[{publisherId:id}]}
             }
         ])
     const arrResults = await result.toArray();
@@ -73,5 +82,9 @@ const deleteRequest = async (ctx) =>{
 
 
 module.exports = {
-    deleteRequest
+    deleteRequest,
+    getRequests,
+    getUsersRequests,
+    updateRequest,
+    createRequest
 }

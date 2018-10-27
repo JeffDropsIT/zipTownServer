@@ -16,20 +16,17 @@ const genFourDigitCode = () => {
     return OTP;
 
 }
-const VIRTUAL_NUMBER = conf.keys.from;
-const from = 'Nexmo';
-const to = '27721197616';
-
 
 const genText = () => {
     const code = genFourDigitCode();
     const text = `ZIPTOWN code: ${code}. Valid for 3 minutes`;
     return {text: text, code: code};
 }
-const verifyPhoneNumber = async (contact) => {
+const verifyPhoneNumber = async (ctx) => {
+    const contact = ctx.query.contact;
     const results = genText();
     nexmo.message.sendSms(
-        from, contact, results.text ,
+        VIRTUAL_NUMBER, contact, results.text ,
             (err, responseData) => {
             if (err) {
                 console.log(err);
