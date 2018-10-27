@@ -9,10 +9,10 @@ router.get("/",Greetings.greeting);
 
 router.post("/ziptown/account/create",userOps.createUser);
 router.post("/ziptown/account/login",userOps.userLogin);
-router.delete("/ziptown/account/user/offer/:id",offersOps.deleteOffer);
+router.delete("/ziptown/account/user/offer/:id/",offersOps.deleteOffer);
 router.post("/ziptown/account/user/offer",offersOps.getOffers);
 router.get("/ziptown/account/user/:id/offer",offersOps.getUsersOffers);
-router.delete("/ziptown/account/user/request/:id",requestOps.deleteRequest);
+router.delete("/ziptown/account/user/request/:id/",requestOps.deleteRequest);
 router.post("/ziptown/account/user/request",requestOps.createRequest);
 router.get("/ziptown/account/user/:id/request",requestOps.getUsersRequests);
 router.get("/ziptown/account/verify",sms.verifyPhoneNumber);

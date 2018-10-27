@@ -1,7 +1,7 @@
 const generic = require("../generic");
 const validator = require("../schema/validateSchema");
 const schema = require("../schema/schema");
-const auth =  require(".../auth");
+const auth =  require("../../../controllers/auth");
 const empty = require("is-empty");
 
 
@@ -49,7 +49,7 @@ const getUser = async (ctx) => {
     const result = await db.db.collection("users").aggregate(
         [
             {
-                $match: {$or:[{id:id}]}
+                $match: {$or:[{id:parseInt(id)}]}
             },
             {
                 $project: {fullName: 1, contact:1, userType: 1, city: 1, created:1, id:1}
