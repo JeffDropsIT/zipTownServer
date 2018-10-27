@@ -23,11 +23,38 @@ const getDatabaseByName = async() =>{
 };
 
 
-
-
+const updateDocument = async(collectionName, id, data) =>{
+    const db = await getDatabaseByName();
+    const result = await db.db.collection(collectionName).update(
+        {"id": parseInt(id)},
+        {$set: data}, 
+    );
+    db.connection.close();
+    console.log(result.result.ok, result.result.nModified)
+    return result.result.nModified;
+}
+const deleteDocument = async(collectionName, id) => {
+    const db = await getDatabaseByName();
+    const result = await db.db.collection(collectionName).remove(
+        {"id": parseInt(id)} 
+    );
+    db.connection.close();
+    console.log(result.result.ok, result.result.nModified)
+    return result.result.nModified;
+}
+const updateUserDocument = async(collectionName, contact, data) =>{
+    const db = await getDatabaseByName();
+    const result = await db.db.collection(collectionName).update(
+        {"contact": contact},
+        {$set: data}, 
+    );
+    db.connection.close();
+    console.log(result.result.ok, result.result.nModified)
+    return result.result.nModified;
+}
 const checkIfUserContactExist = async (contact) =>{
     try {
-        const db = await getDatabaseByName("afroturf");
+        const db = await getDatabaseByName();
         const result = await db.db.collection("users").find({contact:contact});
         const arrResult = await result.toArray();
         const json = JSON.parse(JSON.stringify(arrResult));
@@ -56,5 +83,8 @@ const insertIntoCollection = async (collectionName, data) =>{
 module.exports = {
     getDatabaseByName,
     insertIntoCollection,
-    checkIfUserContactExist
+    checkIfUserContactExist,
+    updateDocument,
+    updateUserDocument,
+    deleteDocument
 }

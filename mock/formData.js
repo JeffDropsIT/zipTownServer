@@ -25,13 +25,35 @@ const sampleUserMissingParam = {
     password: "password123"
 }
 const sampleQueryString = {
-    query: sampleUser
+    request: {body:sampleUser}
+}
+
+const sampleReqUpdateUser = {
+    request: {
+        body:
+        {
+            id:13,
+            fullName: "Jane",
+            city: "Durbane",
+            password: "password123",
+            contact: "+2771008479811"
+        }
+    }
+}
+const sampleUserRequestLogin = {
+    request: {
+        body:
+        {
+        password: "password123",
+        contact: "+2771008479811"
+        }
+    }
 }
 const sampleQueryStringDublicateParam = {
-    query: sampleUser
+    request: {body:sampleUser}
 }
 const sampleQueryStringMissingParam = {
-    query: sampleUserMissingParam
+    request: {body:sampleUserMissingParam}
 }
 
 
@@ -112,5 +134,7 @@ module.exports = {
     sampleUser,
     sampleQueryStringDublicateParam,
     sampleQueryString, 
-    sampleQueryStringMissingParam
+    sampleQueryStringMissingParam,
+    sampleUserRequestLogin,
+    sampleReqUpdateUser
 }

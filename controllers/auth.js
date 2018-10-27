@@ -35,16 +35,40 @@ const authenticateUser = async (contact, password) =>{
     const isPassword = await bcrypt.compareSync(password, user.password);
     if(isPassword){
         delete user.password
-        return {response: 200, message:"success", data:user};
+        return {response: 200, message:"success", data:[user]};
     }else{
         return {response: 404, message:"contact or password incorrect"};
     }
-
-
 }
 
-//authenticateUser("+2771008479811", "password1213");
+//not jest tested
+const updateUserPassword = async (contact, password) =>{
+    const response = await getUserAuth(contact, password);
+    if(response.response === 404){
+        return response.response;
+    }
+    const user = response.data;
+    const isPassword = await bcrypt.compareSync(password, user.password);
+    if(isPassword){
+        //update password
+        const result = await generic.updateUserDocument("users", contact, {password:password});
+        if(result === 1){
+            return {response: 200, message:"success"};
+        }else{
+            return {response: 409, message:"ops something went wrong"};
+        }
+        
+    }else{
+        return {response: 409, message:"password incorrect"};
+    }
+}
+
+
+//updateUserPassword("+2771008479811", "password123").then(data => console.log(data));
+
+
 module.exports = {
     hashPassword,
-    authenticateUser
+    authenticateUser,
+    updateUserPassword
 }

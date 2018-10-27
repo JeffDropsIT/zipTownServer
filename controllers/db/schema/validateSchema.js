@@ -22,6 +22,30 @@ const validateId = async(ctx) =>{
     }
 
 }
+
+const validateIdOnPost = async(ctx) =>{
+
+    const idOnPost = ctx.request.body.id;
+    if(idOnPost){
+        return  {response: 200, message:"success"};
+    }else{
+        return {response: 422, error: "missing parameter (Unprocessable Entity)"};
+    }
+
+}
+
+
+const validateLogin = async(ctx) =>{
+    const contact = ctx.request.body.contact;
+    const password = ctx.request.body.password;
+    if(contact && password){
+        return  {response: 200, message:"success"};
+    }else{
+        return {response: 422, error: "missing parameter (Unprocessable Entity)"};
+    }
+
+}
+
 const validatePostData = data => {
     try {
         let publisherId =  data.publisherId.toLowerCase(),
@@ -44,5 +68,7 @@ const validatePostData = data => {
 module.exports = {
     validateUserData,
     validatePostData,
-    validateId
+    validateId,
+    validateLogin,
+    validateIdOnPost
 }
