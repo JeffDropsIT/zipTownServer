@@ -27,7 +27,7 @@ const createRequest = async (ctx) => {
 const getRequests = async (ctx) => {
   
     const db = await generic.getDatabaseByName();
-    const result = await db.db.collection("requests").find({});
+    const result = await db.db.collection("requests").find({city:ctx.query.city});
     const arrResults = await result.toArray();
     db.connection.close();
     return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
