@@ -33,8 +33,8 @@ const getOffers = async (ctx) => {
     const result = await db.db.collection("offers").find({city:ctx.query.city});
     const arrResults = await result.toArray();
     db.connection.close();
-    ctx.body = {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
-    return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
+    ctx.body = JSON.parse(JSON.stringify(arrResults));
+    return  JSON.parse(JSON.stringify(arrResults));
 
 }
 
@@ -54,8 +54,8 @@ const getUsersOffers = async (ctx) => {
         ])
     const arrResults = await result.toArray();
     db.connection.close();
-    ctx.body =  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
-    return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
+    ctx.body =  JSON.parse(JSON.stringify(arrResults));
+    return JSON.parse(JSON.stringify(arrResults));
 
 }
 

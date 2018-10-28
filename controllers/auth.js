@@ -2,7 +2,8 @@ const bcrypt = require('bcryptjs');
 const salt = bcrypt.genSaltSync(10);
 const generic = require("../controllers/db/generic")
 
-
+const offersOps = require("./db/operations/offers-operations");
+const reqOps = require("./db/operations/requests-operations");
 
 const hashPassword = async (password) =>{
     const hash = await bcrypt.hashSync(password, salt);
@@ -20,7 +21,7 @@ const getUserAuth = async (contact)=>{
         const result = await db.db.collection("users").aggregate([{$match: {$or:[{contact:contact}]}}])
         const arrResults = await result.toArray();
         db.connection.close();
-        return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults[0]))};
+        return  JSON.parse(JSON.stringify(arrResults[0]))
     }catch(err){
         throw new Error(err);
     }
@@ -34,8 +35,13 @@ const authenticateUser = async (contact, password) =>{
     const user = response.data;
     const isPassword = await bcrypt.compareSync(password, user.password);
     if(isPassword){
-        delete user.password
-        return {response: 200, message:"success", data:[user]};
+        delete user.password;
+            
+        const offers =  offersOps.getUsersOffers(ctx);
+        const requests =  reqOps.getUsersRequests(ctx);
+
+        const res = {user:user, offers: await offers, requests: await requests}
+        return res
     }else{
         return {response: 404, message:"contact or password incorrect"};
     }

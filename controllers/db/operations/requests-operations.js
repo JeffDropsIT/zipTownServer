@@ -33,8 +33,8 @@ const getRequests = async (ctx) => {
     const result = await db.db.collection("requests").find({city:ctx.query.city});
     const arrResults = await result.toArray();
     db.connection.close();
-    ctx.body =  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
-    return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
+    ctx.body =  JSON.parse(JSON.stringify(arrResults));
+    return   JSON.parse(JSON.stringify(arrResults));
 
 }
 const getUsersRequests = async (ctx) => {
@@ -53,8 +53,8 @@ const getUsersRequests = async (ctx) => {
         ])
     const arrResults = await result.toArray();
     db.connection.close();
-    ctx.body =  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
-    return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
+    ctx.body =  JSON.parse(JSON.stringify(arrResults));
+    return  JSON.parse(JSON.stringify(arrResults));
 
 }
 const updateRequest = async (ctx) => {

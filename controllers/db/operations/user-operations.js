@@ -3,8 +3,8 @@ const validator = require("../schema/validateSchema");
 const schema = require("../schema/schema");
 const auth =  require("../../../controllers/auth");
 const empty = require("is-empty");
-
-
+const offersOps = require("../operations/offers-operations");
+const reqOps = require("../operations/requests-operations");
 //tested
 const createUser = async(ctx) =>{
     try {
@@ -22,10 +22,10 @@ const createUser = async(ctx) =>{
             ctx.body = response;
             return  response;
         }else{
-            const user =  schema.user(data);
-            const results = await generic.insertIntoCollection("users", await user);
+            const user = await schema.user(data);
+            const results = await generic.insertIntoCollection("users",  user);
             if(results._id){
-                let response = {response: 200, message:"success"};
+                let response = {response: 200, message:"success", data:{userId:user.id}};
                 ctx.body = response;
                 return  response;
             }else{
@@ -63,8 +63,12 @@ const getUser = async (ctx) => {
         ])
     const arrResults = await result.toArray();
     db.connection.close();
-    ctx.body =  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
-    return  {response: 200, message:"success", data:JSON.parse(JSON.stringify(arrResults))};
+    const offers =  offersOps.getUsersOffers(ctx);
+    const requests = reqOps.getUsersRequests(ctx);
+
+    const res = {user:JSON.parse(JSON.stringify(arrResults)), offers: await offers, requests: await requests}
+    ctx.body =  {response: 200, message:"success",data:[res]};
+    return   {response: 200, message:"success", data:[res]};
 
 
 }
