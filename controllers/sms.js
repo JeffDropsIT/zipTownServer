@@ -25,22 +25,43 @@ const genText = () => {
 const verifyPhoneNumber = async (ctx) => {
     const contact = ctx.query.contact;
     const results = genText();
+    const VIRTUAL_NUMBER = conf.keys.from;
     nexmo.message.sendSms(
         VIRTUAL_NUMBER, contact, results.text ,
-            (err, responseData) => {
-            if (err) {
-                console.log(err);
-                return {response:200, message:"sucess", data:responseData}
-            } else {
-                responseData["code"] = results.code;
-                console.dir(responseData);
-                return {response:200, message:"sucess", data:responseData}
-        
-            }
-        
-            }
-    );
+        async(err , responseData) =>{
+        if (err) {
+            console.log(err);
+            ctx.body = {response:500, message:"error occured"};
+            return {response:500, message:"error occured"}
+        } else {
+            responseData["code"] = results.code;
+            ctx.body = responseData;
+            console.log("body ",ctx.body)
+            return {response:200, message:"sucess", data:responseData}
     
+        }
+        }
+    );
+    await timeout(1500);
+    
+};
+
+function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
+const verify = async (err , responseData, ctx) => {
+    if (err) {
+        console.log(err);
+        ctx.body = {response:200, message:"sucess", data:responseData};
+        return {response:200, message:"sucess", data:responseData}
+    } else {
+        //responseData["code"] = results.code;
+        console.dir(responseData);
+        ctx.body = responseData;
+        console.log("body ",ctx.body)
+        return {response:200, message:"sucess", data:responseData}
+
+    }
 }
 //verifyPhoneNumber('27721197616');
  module.exports = {
