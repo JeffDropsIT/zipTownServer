@@ -18,7 +18,7 @@ router.get("/ziptown/account/user/:id/request",requestOps.getUsersRequests);
 router.get("/ziptown/account/verify",sms.verifyPhoneNumber);
 router.get("/ziptown/app/requests",requestOps.getRequests);
 router.get("/ziptown/app/offers",offersOps.getOffers);
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
 
 module.exports = {
     router
