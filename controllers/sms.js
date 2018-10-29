@@ -42,6 +42,7 @@ const verifyPhoneNumber = async (ctx) => {
         }
         }
     );
+
     await timeout(1500);
     
 };
