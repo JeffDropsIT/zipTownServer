@@ -25,7 +25,12 @@ const createUser = async(ctx) =>{
             const user = await schema.user(data);
             const results = await generic.insertIntoCollection("users",  user);
             if(results._id){
-                let response = {response: 200, message:"success", data:{userId:user.id}};
+                const ctxT = {
+                    params: {
+                        id:user.id
+                    }
+                }
+                let response = await getUser(ctxT);
                 ctx.body = response;
                 return  response;
             }else{
