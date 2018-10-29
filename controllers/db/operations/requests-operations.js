@@ -1,6 +1,6 @@
 const generic = require("../generic");
 const validator = require("../schema/validateSchema");
-const schema = require("../schema/schema");
+
 const empty = require("is-empty");
 
 
