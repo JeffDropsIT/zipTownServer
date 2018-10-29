@@ -67,8 +67,8 @@ const getUser = async (ctx) => {
     const requests = reqOps.getUsersRequests(ctx);
 
     const res = {user:JSON.parse(JSON.stringify(arrResults)), offers: await offers, requests: await requests}
-    ctx.body =  {response: 200, message:"success",data:[res]};
-    return   {response: 200, message:"success", data:[res]};
+    ctx.body =  res;
+    return  res
 
 
 }
@@ -97,16 +97,16 @@ const updateUser = async (ctx) => {
     delete data.password;
     delete data.contact;
     if(empty(data)){
-        ctx.body =  {response: 409, message:"no data to update"};
-        return {response: 409, message:"no data to update"}
+        ctx.body =  {response: 409, error:"no data to update"};
+        return {response: 409, error:"no data to update"}
     }
     const result = await generic.updateDocument("users", id, data);
     if(result === 1){
         ctx.body = {response: 200, message:"success"};;
         return {response: 200, message:"success"};
     }else{
-        ctx.body = {response: 409, message:"ops something went wrong"};;
-        return {response: 409, message:"ops something went wrong"};
+        ctx.body = {response: 409, error:"ops something went wrong"};;
+        return {response: 409, error:"ops something went wrong"};
     }
 }
 const updateUserPassword = async (ctx) => {

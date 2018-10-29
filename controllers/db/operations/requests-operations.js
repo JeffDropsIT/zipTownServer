@@ -14,8 +14,8 @@ const createRequest = async (ctx) => {
         return  response;
     }
 
-    const offer =  schema.post(data);
-    const results = await generic.insertIntoCollection("requests", await offer);
+    const offer = await require("../schema/schema").postData(data);
+    const results = await generic.insertIntoCollection("requests",  offer);
     if(results._id){
         let response = {response: 200, message:"success"};
         ctx.body = response;
@@ -66,30 +66,36 @@ const updateRequest = async (ctx) => {
     
     const data = ctx.request.body;
     if(empty(data)){
-        ctx.body =  {response: 409, message:"no data to update"}
-        return {response: 409, message:"no data to update"}
+        ctx.body =  {response: 409, error:"no data to update"}
+        return {response: 409, error:"no data to update"}
     }
     const result = await generic.updateDocument("requests", data.id, data);
     if(result === 1){
         ctx.body = {response: 200, message:"success"};
         return {response: 200, message:"success"};
     }else{
-        ctx.body = {response: 409, message:"ops something went wrong"};;
-        return {response: 409, message:"ops something went wrong"};
+        ctx.body = {response: 409, error:"ops something went wrong"};;
+        return {response: 409, error:"ops something went wrong"};
     }
 }
 
 const deleteRequest = async (ctx) =>{
-    const response = await validator.validateIdOnPost(ctx)
+    const response = await validator.validateId(ctx)
     if(response.response === 422){
         ctx.body = response;
         return response;
     }
-    const data = ctx.request.body;
-    const resultResponse = await generic.deleteDocument("requests",parseInt(data.id));
-
-    ctx.body = resultResponse;
-    return resultResponse;
+    
+    const data = ctx.params.id;
+    const resultResponse = await generic.deleteDocument("requests",parseInt(data));
+    let res;
+    if(resultResponse == 1){
+        res  = {response: 200, message:"success"}
+    }else{
+        res = {response: 500, error:"Ops something went wrong couldn't delete document"};
+    }
+    ctx.body = res;
+    return res;
 }
 
 

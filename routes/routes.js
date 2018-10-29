@@ -10,7 +10,7 @@ router.get("/",Greetings.greeting);
 router.post("/ziptown/account/create",userOps.createUser);
 router.post("/ziptown/account/login",userOps.userLogin);
 router.delete("/ziptown/account/user/offer/:id/",offersOps.deleteOffer);
-router.post("/ziptown/account/user/offer",offersOps.getOffers);
+router.post("/ziptown/account/user/offer",offersOps.createOffer);
 router.get("/ziptown/account/user/:id",userOps.getUser);
 router.get("/ziptown/account/user/:id/offers",offersOps.getUsersOffers);
 router.delete("/ziptown/account/user/request/:id/",requestOps.deleteRequest);

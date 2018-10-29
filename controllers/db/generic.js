@@ -35,12 +35,12 @@ const updateDocument = async(collectionName, id, data) =>{
 }
 const deleteDocument = async(collectionName, id) => {
     const db = await getDatabaseByName();
-    const result = await db.db.collection(collectionName).remove(
+    const result = await db.db.collection(collectionName).deleteOne(
         {"id": parseInt(id)} 
     );
     db.connection.close();
     console.log(result.result.ok, result.result.nModified)
-    return result.result.nModified;
+    return result.result.ok;
 }
 const updateUserDocument = async(collectionName, contact, data) =>{
     const db = await getDatabaseByName();

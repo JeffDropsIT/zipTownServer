@@ -14,7 +14,7 @@ const user = async (data) => {
 
     return form;
 }
-const getId = async data =>{
+const getId = async (data) =>{
     let id;
     if(String(data.postType) === "offer"){
         
@@ -27,8 +27,8 @@ const getId = async data =>{
     }
     return id;
 }
-const post = async (data) =>{
-    
+const postData = async (data) => {
+    console.log("post") ;
     const form = {
         id: await getId(data),
         publisherId: data.publisherId,
@@ -46,7 +46,8 @@ const post = async (data) =>{
     return form;
 }
 
+
 module.exports = {
     user,
-    post
+    postData
 }

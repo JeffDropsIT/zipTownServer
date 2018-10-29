@@ -15,7 +15,7 @@ const getUserAuth = async (contact)=>{
         const status = await generic.checkIfUserContactExist(contact);
         if( status === 0){ 
             console.log("username or phone number does not exit"+ contact);
-            return {response: 404, message:"contact or password incorrect"};
+            return {response: 404, error:"contact or password incorrect"};
         }
         const db = await generic.getDatabaseByName();
         const result = await db.db.collection("users").aggregate([{$match: {$or:[{contact:contact}]}}])
@@ -27,23 +27,27 @@ const getUserAuth = async (contact)=>{
     }
 }
 //not jest tested
-const authenticateUser = async (contact, password) =>{
+const authenticateUser = async (contact, password, ) =>{
     const response = await getUserAuth(contact, password);
     if(response.response === 404){
-        return response.response;
+        return response;
     }
-    const user = response.data;
+    const user = response;
     const isPassword = await bcrypt.compareSync(password, user.password);
     if(isPassword){
         delete user.password;
-            
+        const ctx = {
+            params: {
+                id:user.id
+            }
+        }
         const offers =  offersOps.getUsersOffers(ctx);
         const requests =  reqOps.getUsersRequests(ctx);
 
         const res = {user:user, offers: await offers, requests: await requests}
         return res
     }else{
-        return {response: 404, message:"contact or password incorrect"};
+        return {response: 404, error:"contact or password incorrect"};
     }
 }
 
@@ -61,11 +65,11 @@ const updateUserPassword = async (contact, password) =>{
         if(result === 1){
             return {response: 200, message:"success"};
         }else{
-            return {response: 409, message:"ops something went wrong"};
+            return {response: 409, error:"ops something went wrong"};
         }
         
     }else{
-        return {response: 409, message:"password incorrect"};
+        return {response: 409, error:"password incorrect"};
     }
 }
 
