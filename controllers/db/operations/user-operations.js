@@ -71,7 +71,7 @@ const getUser = async (ctx) => {
     const offers =  offersOps.getUsersOffers(ctx);
     const requests = reqOps.getUsersRequests(ctx);
 
-    const res = {user:JSON.parse(JSON.stringify(arrResults)), offers: await offers, requests: await requests}
+    const res = {user:JSON.parse(JSON.stringify(arrResults[0])), offers: await offers, requests: await requests}
     ctx.body =  res;
     return  res
 
