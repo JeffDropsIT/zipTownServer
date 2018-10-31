@@ -32,16 +32,16 @@ const postData = async (data) => {
     const form = {
         id: await getId(data),
         publisherId: data.publisherId,
-        depatureTime: data.depatureTime,
-        returnTime: data.returnTime,
-        days: data.days,
-        origin: data.origin,
-        destination: data.destination,
-        city: data.city,
-        publisher: data.publisher,
+        depatureTime: data.depatureTime.toLowerCase(),
+        returnTime: data.returnTime.toLowerCase(),
+        days: data.days.toLowerCase(),
+        origin: data.origin.toLowerCase(),
+        destination: data.destination.toLowerCase(),
+        city: data.city.toLowerCase(),
+        publisher: data.publisher.toLowerCase(),
         created: new Date(),
         contact: data.contact,
-        postType: data.postType,
+        postType: data.postType.toLowerCase(),
     }
     return form;
 }

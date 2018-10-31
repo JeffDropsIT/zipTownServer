@@ -34,7 +34,35 @@ const validateIdOnPost = async(ctx) =>{
 
 }
 
+const validateCity = async (ctx) => {
+    let city = ctx.query.city;
+    let response = {response: 200, message:"success"};
+    if(city){
+       city = city.toLowerCase();
+    }else{
+        let response = {response: 422, error:"missing parameter (Unprocessable Entity)"};
+        ctx.body = response;
+        return response;
+    }
+    return response;
+}
+const validateSearch = async (ctx) => {
+    let data = ctx.request.body;
+    try {
+        let depatureTime = data.depatureTime.toLowerCase(),
+        returnTime = data.returnTime.toLowerCase(),
+        days = data.days.toLowerCase(),
+        origin = data.origin.toLowerCase(),
+        destination = data.destination.toLowerCase(),
+        city = data.city.toLowerCase();
 
+        return {response: 200, message: "success"};
+    } catch (error) {
+        return {response: 422, error: "missing parameter (Unprocessable Entity)"};
+    }
+
+
+}
 const validateLogin = async(ctx) =>{
     const contact = ctx.request.body.contact;
     const password = ctx.request.body.password;
@@ -71,5 +99,7 @@ module.exports = {
     validatePostData,
     validateId,
     validateLogin,
-    validateIdOnPost
+    validateIdOnPost,
+    validateCity,
+    validateSearch
 }

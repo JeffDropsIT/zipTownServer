@@ -30,7 +30,38 @@ const createRequest = async (ctx) => {
 const getRequests = async (ctx) => {
   
     const db = await generic.getDatabaseByName();
-    const result = await db.db.collection("requests").find({city:ctx.query.city});
+    const response = await validator.validateCity(ctx);
+    if(response.response != 200){
+        return response;
+    }
+
+    let city = ctx.query.city;
+    city = city.toLowerCase()
+    const result = await db.db.collection("requests").find({city:city});
+    const arrResults = await result.toArray();
+    db.connection.close();
+    ctx.body =  JSON.parse(JSON.stringify(arrResults));
+    return   JSON.parse(JSON.stringify(arrResults));
+
+}
+
+const searchOnRequests = async(ctx) => {
+    const response = await validator.validateSearch(ctx);
+    if(response.response != 200){
+        return response;
+    }
+    const data = ctx.request.body;
+    const db = await generic.getDatabaseByName();
+    const result = await db.db.collection("requests").aggregate([
+        {$match:{$or : [
+          {"city": { '$regex' : data.city.toLowerCase(), '$options' : 'i' }},
+          {"returnTime": { '$regex' : data.returnTime.toLowerCase(), '$options' : 'i' }},
+          {"depatureTime": { '$regex' : data.depatureTime.toLowerCase(), '$options' : 'i' }},
+          {"days": { '$regex' : data.days.toLowerCase(), '$options' : 'i' }},
+          {"origin": { '$regex' : data.origin.toLowerCase(), '$options' : 'i' }},
+          {"destination": { '$regex' : data.destination.toLowerCase(), '$options' : 'i' }}
+        ]}}
+    ])
     const arrResults = await result.toArray();
     db.connection.close();
     ctx.body =  JSON.parse(JSON.stringify(arrResults));
@@ -104,5 +135,6 @@ module.exports = {
     getRequests,
     getUsersRequests,
     updateRequest,
-    createRequest
+    createRequest,
+    searchOnRequests
 }
