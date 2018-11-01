@@ -17,7 +17,6 @@ router.put("/ziptown/account/user/edt/:id",userOps.updateUserPassword);
 router.post("/ziptown/account/user/edt/:id",userOps.updateUser);
 router.get("/ziptown/account/user/:id/offers",offersOps.getUsersOffers);
 router.delete("/ziptown/account/user/request/:id/",requestOps.deleteRequest);
-
 router.get("/ziptown/account/user/:id/requests",requestOps.getUsersRequests);
 router.get("/ziptown/account/verify",sms.verifyPhoneNumber);
 router.get("/ziptown/app/requests",requestOps.getRequests);

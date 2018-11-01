@@ -40,6 +40,16 @@ const getRequests = async (ctx) => {
 
     let city = ctx.query.city;
     city = city.toLowerCase()
+    let fallback = ctx.query.fallback;
+    if(fallback){
+        city = city.toLowerCase()
+        const result = await db.db.collection("requests").find({});
+        const arrResults = await result.toArray();
+        db.connection.close();
+        ctx.body =  JSON.parse(JSON.stringify(arrResults));
+        return   JSON.parse(JSON.stringify(arrResults));
+    }
+    city = city.toLowerCase()
     const result = await db.db.collection("requests").find({city:city});
     const arrResults = await result.toArray();
     db.connection.close();
