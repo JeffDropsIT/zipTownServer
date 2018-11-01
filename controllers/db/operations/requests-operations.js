@@ -7,8 +7,10 @@ const empty = require("is-empty");
 
 const createRequest = async (ctx) => {
 
+    console.log("createRequest");
     const data = ctx.request.body;
     const response = await validator.validatePostData(data);
+    
     if(response.response === 422){
         ctx.body = response;
         return  response;
@@ -16,6 +18,7 @@ const createRequest = async (ctx) => {
 
     const offer = await require("../schema/schema").postData(data);
     const results = await generic.insertIntoCollection("requests",  offer);
+    console.log(offer);
     if(results._id){
         let response = {response: 200, message:"success"};
         ctx.body = response;

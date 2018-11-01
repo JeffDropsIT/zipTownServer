@@ -11,12 +11,13 @@ router.post("/ziptown/account/create",userOps.createUser);
 router.post("/ziptown/account/login",userOps.userLogin);
 router.delete("/ziptown/account/user/offer/:id/",offersOps.deleteOffer);
 router.post("/ziptown/account/user/offer",offersOps.createOffer);
+router.post("/ziptown/account/user/request",requestOps.createRequest);
 router.get("/ziptown/account/user/:id",userOps.getUser);
-router.put("/ziptown/account/user/:id",userOps.updateUserPassword);
-router.post("/ziptown/account/user/:id",userOps.updateUser);
+router.put("/ziptown/account/user/edt/:id",userOps.updateUserPassword);
+router.post("/ziptown/account/user/edt/:id",userOps.updateUser);
 router.get("/ziptown/account/user/:id/offers",offersOps.getUsersOffers);
 router.delete("/ziptown/account/user/request/:id/",requestOps.deleteRequest);
-router.post("/ziptown/account/user/request",requestOps.createRequest);
+
 router.get("/ziptown/account/user/:id/requests",requestOps.getUsersRequests);
 router.get("/ziptown/account/verify",sms.verifyPhoneNumber);
 router.get("/ziptown/app/requests",requestOps.getRequests);
