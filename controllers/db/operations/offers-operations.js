@@ -68,9 +68,9 @@ const getOffers = async (ctx) => {
         ctx.body =  JSON.parse(JSON.stringify(arrResults));
         return   JSON.parse(JSON.stringify(arrResults));
     }
-    const result = await db.db.collection("offers").find({$match:{$or : [
+    const result = await db.db.collection("offers").aggregate([{$match:{$or : [
         {"city": { '$regex' :city, '$options' : 'i' }}
-      ]}});
+      ]}}]);
     const arrResults = await result.toArray();
     db.connection.close();
     ctx.body = JSON.parse(JSON.stringify(arrResults));
