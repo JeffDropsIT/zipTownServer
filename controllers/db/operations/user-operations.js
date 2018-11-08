@@ -71,8 +71,9 @@ const getUser = async (ctx) => {
     db.connection.close();
     const offers =  offersOps.getUsersOffers(ctx);
     const requests = reqOps.getUsersRequests(ctx);
-
-    const res = {user:JSON.parse(JSON.stringify(arrResults[0])), offers: await offers, requests: await requests}
+    let user = JSON.parse(JSON.stringify(arrResults[0]))
+    user.password  = "secret password";
+    const res = {user:user, offers: await offers, requests: await requests}
     ctx.body =  res;
     return  res
 
