@@ -56,13 +56,14 @@ const getUser = async (ctx) => {
     }
     const id = ctx.params.id;
     const db = await generic.getDatabaseByName();
+    //change returning the password to client
     const result = await db.db.collection("users").aggregate(
         [
             {
                 $match: {$or:[{id:parseInt(id)}]}
             },
             {
-                $project: {fullName: 1, contact:1, userType: 1, city: 1, created:1, id:1}
+                $project: {fullName: 1, contact:1, userType: 1, city: 1, created:1, id:1, password:1}
                     
             }
         ])
