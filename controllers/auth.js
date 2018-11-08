@@ -35,7 +35,7 @@ const authenticateUser = async (contact, password, ) =>{
     const user = response;
     const isPassword = await bcrypt.compareSync(password, user.password);
     if(isPassword){
-        delete user.password;
+        user.password;
         const ctx = {
             params: {
                 id:user.id
