@@ -62,7 +62,7 @@ const getOffers = async (ctx) => {
     let fallback = ctx.query.fallback;
     if(fallback){
         city = city.toLowerCase()
-        const result = await db.db.collection("requests").find({});
+        const result = await db.db.collection("offers").find({});
         const arrResults = await result.toArray();
         db.connection.close();
         ctx.body =  JSON.parse(JSON.stringify(arrResults));

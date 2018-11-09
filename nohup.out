@@ -534,3 +534,3074 @@ connected
 connected
 connected
   --> POST /ziptown/account/login 200 1,583ms 1.38kb
+listening on port 9000
+  <-- GET /ziptown/app/requests?city=p
+connected
+  --> GET /ziptown/app/requests?city=p 200 575ms 12.19kb
+  <-- GET /ziptown/app/requests?city=p
+connected
+  --> GET /ziptown/app/requests?city=p 200 495ms 12.19kb
+  <-- GET /ziptown/account/user/29
+connected
+connected
+connected
+  --> GET /ziptown/account/user/29 200 1,061ms 17.61kb
+listening on port 9000
+  <-- GET /ziptown/account/user/29
+connected
+connected
+connected
+  --> GET /ziptown/account/user/29 200 1,169ms 17.68kb
+listening on port 9000
+  <-- GET /ziptown/account/user/29
+connected
+connected
+connected
+  --> GET /ziptown/account/user/29 200 1,153ms 17.64kb
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,778ms 618b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,742ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 966ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 979ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 975ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,109ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,007ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 975ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/offers?city=Pretoria%20West 200 463ms 366b
+  <-- GET /ziptown/app/offers?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/offers?city=Pretoria%20West 200 489ms 366b
+  <-- GET /ziptown/app/requests?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/requests?city=Pretoria%20West 200 488ms 2b
+  <-- GET /ziptown/app/requests?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/requests?city=Pretoria%20West 200 489ms 2b
+  <-- GET /ziptown/app/offers?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/offers?city=Pretoria%20West 200 586ms 366b
+  <-- GET /ziptown/app/requests?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/requests?city=Pretoria%20West 200 517ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 520ms 12.78kb
+  <-- GET /ziptown/app/offers?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/offers?city=Pretoria%20West 200 460ms 366b
+  <-- GET /ziptown/app/requests?city=Pretoria%20West
+connected
+  --> GET /ziptown/app/requests?city=Pretoria%20West 200 517ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 461ms 12.78kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,140ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,010ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,026ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 573ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 605ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 489ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 491ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,075ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 994ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,009ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,072ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,003ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 979ms 618b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,554ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 974ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,021ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 979ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 947ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 572ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 606ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 465ms 10.55kb
+  <-- POST /ziptown/app/search/requests
+connected
+  --> POST /ziptown/app/search/requests 200 562ms 10.2kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 605ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 491ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 613ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,007ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 944ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,008ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,003ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 975ms 618b
+  <-- POST /ziptown/account/login
+connected
+connected
+  --> POST /ziptown/account/login 200 1,332ms 56b
+  <-- POST /ziptown/account/login
+connected
+connected
+  --> POST /ziptown/account/login 200 1,346ms 56b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,892ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,005ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 974ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,071ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,288ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,575ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,013ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 977ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,033ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,005ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 570ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 646ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 488ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 524ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,046ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 973ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 946ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,108ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 973ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 981ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,004ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 977ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,005ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,116ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,035ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 956ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,108ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 988ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 949ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,069ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 954ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 948ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,074ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,012ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 979ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 991ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,007ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 950ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,037ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,002ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 975ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,132ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 996ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,004ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 605ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 518ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 490ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,005ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 945ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 982ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 570ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 491ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,024ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,015ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 974ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 604ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 517ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 978ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,007ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,048ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,002ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,003ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,009ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,004ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,006ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,106ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,003ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,014ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,110ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 948ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 977ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,175ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,036ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 992ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 974ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,006ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,008ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,061ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,007ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,147ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,004ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 977ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,088ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,006ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,038ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 973ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 978ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 685ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 604ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 490ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 518ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 953ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,003ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,016ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 605ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 491ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 973ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 954ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,005ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 539ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 489ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 976ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 973ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,149ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 951ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 948ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,007ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,004ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,667ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 918ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 921ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,059ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 933ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 462ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 989ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 538ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,022ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 923ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 462ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 466ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 464ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 643ms 21.79kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 925ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 464ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,026ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 918ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 535ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 553ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,030ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 916ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 917ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 464ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 542ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 464ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 554ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,025ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 462ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 996ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 539ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 469ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 462ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 653ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 538ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 535ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/account/verify?contact=27721197616
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27721197616',
+       'message-id': '0B00000231768847',
+       status: '0',
+       'remaining-balance': '8.76280000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '6644' }
+  --> GET /ziptown/account/verify?contact=27721197616 200 1,515ms 194b
+  <-- GET /ziptown/account/verify?contact=27721197616
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27721197616',
+       'message-id': '0B0000023176DA52',
+       status: '0',
+       'remaining-balance': '8.74120000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '7013' }
+  --> GET /ziptown/account/verify?contact=27721197616 200 1,505ms 194b
+  <-- GET /ziptown/account/verify?contact=27721197616
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27721197616',
+       'message-id': '0B0000023177929E',
+       status: '0',
+       'remaining-balance': '8.71960000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '4883' }
+  --> GET /ziptown/account/verify?contact=27721197616 200 1,504ms 194b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 588ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 462ms 53b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 921ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 925ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 540ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 538ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 616ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 540ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 535ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 462ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 923ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 919ms 618b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,608ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 918ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 921ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 550ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 541ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 462ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 926ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 922ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 925ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 921ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 924ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- POST /ziptown/app/search/requests
+connected
+  --> POST /ziptown/app/search/requests 200 551ms 4.18kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 541ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 461ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 536ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 926ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 921ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,012ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,089ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 918ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 922ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 922ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 920ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,026ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 539ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 537ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 474ms 10.55kb
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '3723' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,504ms 149b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '6531' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,503ms 149b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '4021' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,504ms 149b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '3041' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,504ms 149b
+  <-- GET /ziptown/account/verify?contact=2451234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '2451234',
+       'message-id': '0C00000208E0689B',
+       status: '0',
+       'remaining-balance': '8.62240000',
+       'message-price': '0.09720000',
+       network: 'GW-UNKNOWN' } ],
+  code: '5500' }
+  --> GET /ziptown/account/verify?contact=2451234 200 1,503ms 195b
+  <-- GET /ziptown/account/verify?contact=2451234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '2451234',
+       'message-id': '0B000002318BED3A',
+       status: '0',
+       'remaining-balance': '8.52520000',
+       'message-price': '0.09720000',
+       network: 'GW-UNKNOWN' } ],
+  code: '4017' }
+  --> GET /ziptown/account/verify?contact=2451234 200 1,503ms 195b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '3250' }
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit86868323860686
+  --> POST /ziptown/account/login 200 615ms 56b
+  --> GET /ziptown/account/verify?contact=11234 200 1,503ms 149b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit86868323860686
+  --> POST /ziptown/account/login 200 459ms 56b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '1523' }
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '5031' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,502ms 149b
+  --> GET /ziptown/account/verify?contact=11234 200 1,502ms 149b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '8805' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,508ms 149b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '3482' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,503ms 149b
+  <-- GET /ziptown/account/verify?contact=931234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '931234',
+       status: '6',
+       'error-text': 'Unroutable message - rejected',
+       network: 'AF-UNKNOWN' } ],
+  code: '5118' }
+  --> GET /ziptown/account/verify?contact=931234 200 1,504ms 145b
+  <-- GET /ziptown/account/verify?contact=11234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '11234',
+       status: '15',
+       'error-text': 'Illegal Sender Address - rejected',
+       network: 'US-UNKNOWN' } ],
+  code: '8534' }
+  --> GET /ziptown/account/verify?contact=11234 200 1,503ms 149b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- POST /ziptown/account/login
+
+  Error: read ECONNRESET
+      at TCP.onread (net.js:622:25)
+
+connected
+connected
+connected
+connected
+  <-- POST /
+  --> POST / 405 1ms -
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,709ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 978ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 1,112ms 618b
+  <-- GET /ziptown/account/user/45
+connected
+connected
+connected
+  --> GET /ziptown/account/user/45 200 948ms 618b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 571ms 21.79kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 572ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 489ms 10.55kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 569ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 10.55kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 570ms 21.79kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 462ms 10.55kb
+  <-- GET /ziptown/account/verify?contact=27721197616
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27721197616',
+       'message-id': '0C00000209046ADF',
+       status: '0',
+       'remaining-balance': '8.50360000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '2444' }
+  --> GET /ziptown/account/verify?contact=27721197616 200 1,503ms 194b
+  <-- GET /ziptown/account/verify?contact=270793653889
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '270793653889',
+       'message-id': '0C00000209046CF7',
+       status: '0',
+       'remaining-balance': '8.48200000',
+       'message-price': '0.02160000',
+       network: 'ZA-UNKNOWN' } ],
+  code: '8536' }
+  --> GET /ziptown/account/verify?contact=270793653889 200 1,503ms 200b
+  <-- POST /ziptown/account/create
+connected
+connected
+(node:25743) DeprecationWarning: collection.findAndModify is deprecated. Use findOneAndUpdate, findOneAndReplace or findOneAndDelete instead.
+begin Inserting
+connected
+(node:25743) DeprecationWarning: collection.insert is deprecated. Use insertOne, insertMany or bulkWrite instead.
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,508ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 924ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 919ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 919ms 239b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 469ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 460ms 2b
+  <-- POST /ziptown/account/create
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 456ms 2b
+connected
+begin Inserting
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+Done Inserting
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 456ms 2b
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,670ms 243b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 459ms 2b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 460ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+  <-- GET /ziptown/account/user/54
+connected
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 457ms 2b
+connected
+connected
+  --> GET /ziptown/account/user/54 200 918ms 243b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 925ms 243b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 922ms 243b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 920ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 923ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 926ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 921ms 239b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 462ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 460ms 2b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 461ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 462ms 2b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 460ms 2b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 569ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 458ms 2b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 966ms 243b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 999ms 243b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 919ms 243b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 919ms 243b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 920ms 243b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 1,005ms 243b
+  <-- POST /ziptown/account/user/request
+createRequest
+validatePostData:  { city: 'Centurion, South Africa',
+  contact: '270793653889',
+  created: null,
+  days: 'Thu',
+  depatureTime: '19 : 20 PM',
+  destination: '370 Secretarybird Street, Lifateng, Tembisa, South Africa',
+  id: 0,
+  origin: '274 West Avenue, Die Hoewes, Centurion, South Africa',
+  postType: 'request',
+  publisher: 'Miehleketo ',
+  publisherId: 54,
+  returnTime: '19 : 20 PM',
+  url: '/account/user/request' }
+post
+connected
+reqId: 62
+begin Inserting
+connected
+Done Inserting
+{ id: 62,
+  publisherId: 54,
+  depatureTime: '19 : 20 pm',
+  returnTime: '19 : 20 pm',
+  days: 'thu',
+  origin: '274 west avenue, die hoewes, centurion, south africa',
+  destination: '370 secretarybird street, lifateng, tembisa, south africa',
+  city: 'centurion, south africa',
+  publisher: 'miehleketo ',
+  created: 2018-11-08T17:21:15.799Z,
+  contact: '270793653889',
+  postType: 'request',
+  _id: 5be4708cefeb77648f2b1ac7 }
+  --> POST /ziptown/account/user/request 200 1,180ms 36b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 484ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 459ms 408b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 458ms 408b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 993ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 920ms 239b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 919ms 239b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 987ms 649b
+  <-- GET /ziptown/account/user/54
+connected
+connected
+connected
+  --> GET /ziptown/account/user/54 200 920ms 649b
+  <-- POST /ziptown/account/user/offer
+validatePostData:  { city: 'Pretoria, South Africa',
+  contact: '27721197616',
+  created: null,
+  days: 'Mon, Tue, Wed, Thu, Fri',
+  depatureTime: '6 : 00 AM',
+  destination: 'Randburg, South Africa',
+  id: 0,
+  origin: 'Hatfield, Pretoria, South Africa',
+  postType: 'offer',
+  publisher: 'Phumzile ',
+  publisherId: 53,
+  returnTime: '16 : 30 PM',
+  url: '/account/user/offer' }
+post
+connected
+offerId: 171
+begin Inserting
+connected
+Done Inserting
+{ ok: 1, _id: '5be470fbefeb77648f2b1ac8' }
+  --> POST /ziptown/account/user/offer 200 1,003ms 36b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 918ms 604b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 920ms 604b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 925ms 604b
+  <-- POST /ziptown/account/user/request
+createRequest
+validatePostData:  { city: 'Pretoria, South Africa',
+  contact: '27721197616',
+  created: null,
+  days: 'Mon, Tue, Wed, Thu, Fri',
+  depatureTime: '6 : 00 AM',
+  destination: 'Randburg, South Africa',
+  id: 0,
+  origin: 'Pretoria, South Africa',
+  postType: 'request',
+  publisher: 'Phumzile ',
+  publisherId: 53,
+  returnTime: '16 : 30 PM',
+  url: '/account/user/request' }
+post
+connected
+reqId: 63
+begin Inserting
+connected
+Done Inserting
+{ id: 63,
+  publisherId: 53,
+  depatureTime: '6 : 00 am',
+  returnTime: '16 : 30 pm',
+  days: 'mon, tue, wed, thu, fri',
+  origin: 'pretoria, south africa',
+  destination: 'randburg, south africa',
+  city: 'pretoria, south africa',
+  publisher: 'phumzile ',
+  created: 2018-11-08T17:23:41.716Z,
+  contact: '27721197616',
+  postType: 'request',
+  _id: 5be4711eefeb77648f2b1ac9 }
+  --> POST /ziptown/account/user/request 200 969ms 36b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 927ms 960b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 934ms 960b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 918ms 960b
+  <-- DELETE /ziptown/account/user/offer/171/
+connected
+1 undefined
+  --> DELETE /ziptown/account/user/offer/171/ 200 459ms 36b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,035ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 919ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 923ms 595b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 458ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 459ms 765b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 458ms 358b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 923ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 925ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 926ms 595b
+  <-- GET //MyAdmin/scripts/setup.php
+  --> GET //MyAdmin/scripts/setup.php 404 0ms -
+  <-- GET //mysql/scripts/setup.php
+  --> GET //mysql/scripts/setup.php 404 1ms -
+  <-- GET //pma/scripts/setup.php
+  --> GET //pma/scripts/setup.php 404 1ms -
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /ziptown/account/verify?contact=3741234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '3741234',
+       'message-id': '0B00000231E98AE4',
+       status: '0',
+       'remaining-balance': '8.41200000',
+       'message-price': '0.07000000',
+       network: 'AM-FIXED' } ],
+  code: '2807' }
+  --> GET /ziptown/account/verify?contact=3741234 200 1,505ms 193b
+  <-- GET /ziptown/account/verify?contact=5931234
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '5931234',
+       'message-id': '0B00000231E9B74A',
+       status: '0',
+       'remaining-balance': '8.35260000',
+       'message-price': '0.05940000',
+       network: 'EC-UNKNOWN' } ],
+  code: '7701' }
+  --> GET /ziptown/account/verify?contact=5931234 200 1,504ms 195b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 1ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /ziptown/account/verify?contact=27762064023
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27762064023',
+       'message-id': '0B000002320F2C1E',
+       status: '0',
+       'remaining-balance': '8.33100000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '0871' }
+  --> GET /ziptown/account/verify?contact=27762064023 200 1,504ms 194b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,597ms 264b
+  <-- GET /ziptown/account/user/55
+connected
+connected
+connected
+  --> GET /ziptown/account/user/55 200 926ms 264b
+  <-- GET /ziptown/account/user/55
+connected
+connected
+connected
+  --> GET /ziptown/account/user/55 200 933ms 264b
+  <-- GET /ziptown/account/user/55
+connected
+connected
+connected
+  --> GET /ziptown/account/user/55 200 927ms 264b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0671765759
+  --> POST /ziptown/account/login 200 566ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0671765759
+  --> POST /ziptown/account/login 200 458ms 56b
+  <-- GET /ziptown/account/verify?contact=27671765759
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27671765759',
+       'message-id': '0C000002096AF6E2',
+       status: '0',
+       'remaining-balance': '8.30940000',
+       'message-price': '0.02160000',
+       network: '65507' } ],
+  code: '1151' }
+  --> GET /ziptown/account/verify?contact=27671765759 200 1,503ms 194b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,513ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 922ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 922ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 931ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 1,037ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 920ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 919ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 1,018ms 224b
+  <-- GET /ziptown/account/user/56
+connected
+connected
+connected
+  --> GET /ziptown/account/user/56 200 931ms 224b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 827ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 726ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 715ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 731ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 716ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 717ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 717ms 56b
+  <-- POST /ziptown/account/login
+connected
+username or phone number does not exit0715159404
+  --> POST /ziptown/account/login 200 717ms 56b
+  <-- GET /ziptown/account/verify?contact=27715159404
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27715159404',
+       'message-id': '0B000002322023E6',
+       status: '0',
+       'remaining-balance': '8.28780000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '8023' }
+  --> GET /ziptown/account/verify?contact=27715159404 200 1,503ms 194b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,748ms 244b
+  <-- GET /ziptown/account/user/57
+connected
+connected
+connected
+  --> GET /ziptown/account/user/57 200 932ms 244b
+  <-- GET /ziptown/account/user/57
+connected
+connected
+connected
+  --> GET /ziptown/account/user/57 200 919ms 244b
+  <-- GET /ziptown/account/user/57
+connected
+connected
+connected
+  --> GET /ziptown/account/user/57 200 918ms 244b
+  <-- GET /ziptown/account/verify?contact=270842926503
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '270842926503',
+       'message-id': '0B0000023220DA37',
+       status: '0',
+       'remaining-balance': '8.26620000',
+       'message-price': '0.02160000',
+       network: 'ZA-UNKNOWN' } ],
+  code: '0426' }
+  --> GET /ziptown/account/verify?contact=270842926503 200 1,505ms 200b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,510ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 920ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 922ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 925ms 237b
+  <-- GET /ziptown/app/offers?city=Honeydew
+connected
+  --> GET /ziptown/app/offers?city=Honeydew 200 461ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 460ms 764b
+  <-- GET /ziptown/app/offers?city=Honeydew
+connected
+  --> GET /ziptown/app/offers?city=Honeydew 200 471ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 471ms 764b
+  <-- GET /ziptown/app/requests?city=Honeydew
+connected
+  --> GET /ziptown/app/requests?city=Honeydew 200 464ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 461ms 764b
+  <-- GET /ziptown/app/requests?city=Honeydew
+connected
+  --> GET /ziptown/app/requests?city=Honeydew 200 466ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 459ms 764b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 923ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 922ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 920ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 990ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 921ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 926ms 237b
+  <-- GET /ziptown/account/user/58
+connected
+connected
+connected
+  --> GET /ziptown/account/user/58 200 920ms 237b
+  <-- GET /ziptown/account/verify?contact=27817344995
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27817344995',
+       'message-id': '0C00000209718BCE',
+       status: '0',
+       'remaining-balance': '8.24460000',
+       'message-price': '0.02160000',
+       network: '65502' } ],
+  code: '5413' }
+  --> GET /ziptown/account/verify?contact=27817344995 200 1,503ms 194b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,490ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 920ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 922ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 921ms 265b
+  <-- GET /ziptown/app/offers?city=Alexandra
+connected
+  --> GET /ziptown/app/offers?city=Alexandra 200 462ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 459ms 764b
+  <-- GET /ziptown/app/offers?city=Alexandra
+connected
+  --> GET /ziptown/app/offers?city=Alexandra 200 460ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 460ms 764b
+  <-- GET /ziptown/app/requests?city=Alexandra
+connected
+  --> GET /ziptown/app/requests?city=Alexandra 200 460ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 460ms 764b
+  <-- GET /ziptown/app/requests?city=Alexandra
+connected
+  --> GET /ziptown/app/requests?city=Alexandra 200 461ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 460ms 764b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 919ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 920ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 920ms 265b
+  <-- GET /ziptown/app/offers?city=Alexandra
+connected
+  --> GET /ziptown/app/offers?city=Alexandra 200 462ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 466ms 764b
+  <-- GET /ziptown/app/offers?city=Alexandra
+connected
+  --> GET /ziptown/app/offers?city=Alexandra 200 459ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 458ms 764b
+  <-- GET /ziptown/app/requests?city=Alexandra
+connected
+  --> GET /ziptown/app/requests?city=Alexandra 200 459ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 461ms 764b
+  <-- GET /ziptown/app/requests?city=Alexandra
+connected
+  --> GET /ziptown/app/requests?city=Alexandra 200 460ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 459ms 764b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 918ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 922ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 925ms 265b
+  <-- GET /ziptown/app/offers?city=Alexandra
+connected
+  --> GET /ziptown/app/offers?city=Alexandra 200 459ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 458ms 764b
+  <-- GET /ziptown/app/requests?city=Alexandra
+connected
+  --> GET /ziptown/app/requests?city=Alexandra 200 468ms 2b
+  <-- GET /ziptown/app/requests?city=p&fallback=true
+connected
+  --> GET /ziptown/app/requests?city=p&fallback=true 200 458ms 764b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 931ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 921ms 265b
+  <-- GET /ziptown/account/user/59
+connected
+connected
+connected
+  --> GET /ziptown/account/user/59 200 920ms 265b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 541ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 459ms 764b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 358b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 919ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 921ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 922ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 919ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 923ms 595b
+  <-- GET /ziptown/account/verify?contact=27715312568
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27715312568',
+       'message-id': '0C0000020974DF8B',
+       status: '0',
+       'remaining-balance': '8.22300000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '2354' }
+  --> GET /ziptown/account/verify?contact=27715312568 200 1,503ms 194b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,676ms 254b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 977ms 254b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 948ms 254b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 981ms 254b
+  <-- POST /ziptown/account/user/request
+createRequest
+validatePostData:  { city: 'Johannesburg, South Africa',
+  contact: '27715312568',
+  created: null,
+  days: 'Mon, Tue, Wed, Thu, Fri',
+  depatureTime: '5 : 00 AM',
+  destination: 'Randburg, South Africa',
+  id: 0,
+  origin: 'Kagiso, Krugersdorp, South Africa',
+  postType: 'request',
+  publisher: 'Pretty Mhlongo ',
+  publisherId: 60,
+  returnTime: '16 : 30 PM',
+  url: '/account/user/request' }
+post
+connected
+reqId: 64
+begin Inserting
+connected
+Done Inserting
+{ id: 64,
+  publisherId: 60,
+  depatureTime: '5 : 00 am',
+  returnTime: '16 : 30 pm',
+  days: 'mon, tue, wed, thu, fri',
+  origin: 'kagiso, krugersdorp, south africa',
+  destination: 'randburg, south africa',
+  city: 'johannesburg, south africa',
+  publisher: 'pretty mhlongo ',
+  created: 2018-11-09T08:43:39.093Z,
+  contact: '27715312568',
+  postType: 'request',
+  _id: 5be548bbefeb77648f2b1ad0 }
+  --> POST /ziptown/account/user/request 200 979ms 36b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,002ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,040ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,003ms 631b
+  <-- GET /ziptown/app/offers?city=Johannesburg
+connected
+  --> GET /ziptown/app/offers?city=Johannesburg 200 487ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 489ms 1.12kb
+  <-- GET /ziptown/app/offers?city=Johannesburg
+connected
+  --> GET /ziptown/app/offers?city=Johannesburg 200 516ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 488ms 1.12kb
+  <-- GET /ziptown/app/requests?city=Johannesburg
+connected
+  --> GET /ziptown/app/requests?city=Johannesburg 200 488ms 379b
+  <-- GET /ziptown/app/requests?city=Johannesburg
+connected
+  --> GET /ziptown/app/requests?city=Johannesburg 200 459ms 379b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,047ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 976ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,008ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,057ms 631b
+  <-- GET /ziptown/app/offers?city=Johannesburg
+connected
+  --> GET /ziptown/app/offers?city=Johannesburg 200 516ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 517ms 1.12kb
+  <-- GET /ziptown/app/offers?city=Johannesburg
+connected
+  --> GET /ziptown/app/offers?city=Johannesburg 200 488ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 488ms 1.12kb
+  <-- GET /ziptown/app/requests?city=Johannesburg
+connected
+  --> GET /ziptown/app/requests?city=Johannesburg 200 488ms 379b
+  <-- GET /ziptown/app/requests?city=Johannesburg
+connected
+  --> GET /ziptown/app/requests?city=Johannesburg 200 488ms 379b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 974ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 979ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,115ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 975ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,004ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,006ms 631b
+  <-- GET /ziptown/app/offers?city=Johannesburg
+connected
+  --> GET /ziptown/app/offers?city=Johannesburg 200 488ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 491ms 1.12kb
+  <-- GET /ziptown/app/requests?city=Johannesburg
+connected
+  --> GET /ziptown/app/requests?city=Johannesburg 200 461ms 379b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,013ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 1,010ms 631b
+  <-- GET /ziptown/account/user/60
+connected
+connected
+connected
+  --> GET /ziptown/account/user/60 200 920ms 631b
+  <-- GET /ziptown/account/verify?contact=277153568
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '277153568',
+       'message-id': '0C00000209772D5D',
+       status: '0',
+       'remaining-balance': '8.20140000',
+       'message-price': '0.02160000',
+       network: '65501' } ],
+  code: '7102' }
+  --> GET /ziptown/account/verify?contact=277153568 200 1,504ms 192b
+  <-- HEAD /
+  --> HEAD / 200 5ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- GET /ziptown/account/verify?contact=27817343780
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27817343780',
+       'message-id': '0B00000232334768',
+       status: '0',
+       'remaining-balance': '8.17980000',
+       'message-price': '0.02160000',
+       network: '65502' } ],
+  code: '1627' }
+  --> GET /ziptown/account/verify?contact=27817343780 200 1,503ms 194b
+  <-- POST /ziptown/account/create
+connected
+connected
+begin Inserting
+connected
+Done Inserting
+connected
+connected
+connected
+  --> POST /ziptown/account/create 200 2,699ms 246b
+  <-- GET /ziptown/account/user/61
+connected
+connected
+connected
+  --> GET /ziptown/account/user/61 200 1,037ms 246b
+  <-- GET /ziptown/account/user/61
+connected
+connected
+connected
+  --> GET /ziptown/account/user/61 200 1,038ms 246b
+  <-- GET /ziptown/account/user/61
+connected
+connected
+connected
+  --> GET /ziptown/account/user/61 200 947ms 246b
+  <-- GET /ziptown/account/user/61
+connected
+connected
+connected
+  --> GET /ziptown/account/user/61 200 1,155ms 246b
+  <-- GET /ziptown/account/user/61
+connected
+connected
+connected
+  --> GET /ziptown/account/user/61 200 1,004ms 246b
+  <-- GET /ziptown/account/user/61
+connected
+connected
+connected
+  --> GET /ziptown/account/user/61 200 976ms 246b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,099ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,006ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,036ms 595b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 489ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 521ms 1.12kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 487ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 459ms 1.12kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 489ms 358b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 459ms 358b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 644ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 488ms 1.12kb
+  <-- GET http://5.188.210.12/echo.php
+  --> GET http://5.188.210.12/echo.php 404 0ms -
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 487ms 358b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,117ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 973ms 595b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,002ms 595b
+  <-- POST /ziptown/account/user/request
+createRequest
+validatePostData:  { city: 'Pretoria, South Africa',
+  contact: '27721197616',
+  created: null,
+  days: 'Mon, Tue, Wed, Thu, Fri',
+  depatureTime: '6 : 00 AM',
+  destination: 'Pretoria, South Africa',
+  id: 0,
+  origin: 'Sandton, South Africa',
+  postType: 'request',
+  publisher: 'Phumzile ',
+  publisherId: 53,
+  returnTime: '17 : 30 PM',
+  url: '/account/user/request' }
+post
+connected
+reqId: 65
+begin Inserting
+connected
+Done Inserting
+{ id: 65,
+  publisherId: 53,
+  depatureTime: '6 : 00 am',
+  returnTime: '17 : 30 pm',
+  days: 'mon, tue, wed, thu, fri',
+  origin: 'sandton, south africa',
+  destination: 'pretoria, south africa',
+  city: 'pretoria, south africa',
+  publisher: 'phumzile ',
+  created: 2018-11-09T11:17:17.879Z,
+  contact: '27721197616',
+  postType: 'request',
+  _id: 5be56cbeefeb77648f2b1ad2 }
+  --> POST /ziptown/account/user/request 200 1,045ms 36b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,006ms 951b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 949ms 951b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 980ms 951b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 524ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 464ms 1.46kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 458ms 714b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 516ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 460ms 1.46kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 517ms 714b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 548ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 516ms 1.46kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 488ms 714b
+  <-- GET /ziptown/account/verify?contact=27817343780
+body  { 'message-count': '1',
+  messages: 
+   [ { to: '27817343780',
+       'message-id': '0C000002098743B0',
+       status: '0',
+       'remaining-balance': '8.15820000',
+       'message-price': '0.02160000',
+       network: '65502' } ],
+  code: '3478' }
+  --> GET /ziptown/account/verify?contact=27817343780 200 1,504ms 194b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 626ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 487ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 517ms 53b
+  <-- POST /ziptown/account/create
+connected
+  --> POST /ziptown/account/create 200 488ms 53b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 594ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 489ms 1.46kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 517ms 714b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 566ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 494ms 1.46kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 489ms 714b
+  <-- GET /
+  --> GET / 200 0ms 51b
+  <-- POST /ziptown/account/login
+connected
+connected
+connected
+connected
+  --> POST /ziptown/account/login 200 1,710ms 951b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 1,005ms 951b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 974ms 951b
+  <-- GET /ziptown/account/user/53
+connected
+connected
+connected
+  --> GET /ziptown/account/user/53 200 976ms 951b
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 492ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 488ms 1.46kb
+  <-- GET /ziptown/app/offers?city=Pretoria
+connected
+  --> GET /ziptown/app/offers?city=Pretoria 200 488ms 2b
+  <-- GET /ziptown/app/offers?city=p&fallback=true
+connected
+  --> GET /ziptown/app/offers?city=p&fallback=true 200 487ms 1.46kb
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 488ms 714b
+  <-- GET /ziptown/app/requests?city=Pretoria
+connected
+  --> GET /ziptown/app/requests?city=Pretoria 200 488ms 714b
