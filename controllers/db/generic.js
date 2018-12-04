@@ -21,7 +21,26 @@ const getDatabaseByName = async() =>{
     throw new Error(err);
   }
 };
-
+const findClient = async client => {
+    const db = await getDatabaseByName();
+    const result = await db.db.collection("clients").aggregate([
+        {
+            $match:{ $and:[{userId:parseInt(client.userId)},{token:client.token} ]}
+        }
+    ])
+    const arrResult = await result.toArray();
+    const json = JSON.parse(JSON.stringify(arrResult));
+    db.connection.close();
+    console.log("results: ", json);
+    let res;
+    if(empty(json)){
+        res = false;
+    }else{
+        res = true;
+    }
+    console.log("res: "+res);
+    return res;
+}
 
 const updateDocument = async(collectionName, id, data) =>{
     const db = await getDatabaseByName();
@@ -86,5 +105,6 @@ module.exports = {
     checkIfUserContactExist,
     updateDocument,
     updateUserDocument,
-    deleteDocument
+    deleteDocument,
+    findClient
 }
