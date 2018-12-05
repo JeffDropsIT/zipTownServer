@@ -17,8 +17,9 @@ const validatePostDataMessage = data => {
             token = data.token.toLowerCase(),
             message = data.message.toLowerCase(),
             username = data.username.toLowerCase(),
-            to = String(data.to).toLowerCase();
-        
+            to = String(data.to).toLowerCase(),
+            status = data.status.toLowerCase(),
+            timeSent =  data.timeSent.toLowerCase();
         return {response: 200, message: "success"};
     } catch (error) {
         return {response: 422, error: "missing parameter (Unprocessable Entity)"};

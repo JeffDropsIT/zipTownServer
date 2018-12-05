@@ -23,6 +23,8 @@ const createMessage = async ctx => {
         message: data.message,
         messageId: await counters.getNextSequenceValue("messageId", "messagesIndex"),
         senderClientId: data.token,
+        status: data.status,
+        timeSent: data.timeSent,
         created: new Date()
     }
     const results = await generic.insertIntoCollection("messages", message);
